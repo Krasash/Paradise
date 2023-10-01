@@ -1,0 +1,59 @@
+.about_container {
+    width: 100vw;
+    padding: 2rem 6rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo_head {
+    display: flex;
+    justify-content: center;
+}
+
+.about_head_photo {
+    width: 60vw;
+    object-fit: contain;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 0%, 0.047),
+                0 4px 4px hsla(0, 0%, 0%, 0.141);
+}
+
+.about_photo_bg {
+    position: relative;
+}
+
+.about_photo_description {
+    position: absolute;
+    bottom: 0.7rem;
+    left: 0.7rem;
+
+    color: var(--light_grey);
+    font-size: var(--font-size-fluid-0);
+}
+
+.about_me_article {
+    width: 60vw;
+    font-size: var(--font-size-fluid-1);
+}
+
+.youtube_link {
+    position: relative;
+}
+
+.youtube_link::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: -0.1rem;
+    left: 0;
+    right: 0;
+    background-color: var(--gray-7);
+    transition: 0.2s ease-in;
+}
+
+.youtube_link:hover::after {
+    bottom: -0.3rem;
+    background-color: var(--light_blue);
+}

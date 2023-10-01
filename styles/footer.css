@@ -1,0 +1,61 @@
+footer {
+    padding: 2rem 6rem;
+    width: 100%;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 916px) {
+    footer {
+        padding: 10vw;
+    }
+}
+
+.email_me_text {
+    opacity: 0.7;
+}
+
+.email_me_section {
+    background-color: var(--light_grey);
+
+    padding: 1rem;
+    border-radius: 0.4rem;
+    margin-bottom: 3rem;
+
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email_me_link {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+
+    padding: 0.4rem;
+    border-radius: 1rem;
+
+    transition: 0.2s ease-in-out;
+}
+
+.email_me_link:hover {
+    background-color: var(--light_blue);
+    color: white;
+}
+
+.copyright_footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sasha_logo {
+    height: 2.5rem;
+    opacity: 0.7;
+}
