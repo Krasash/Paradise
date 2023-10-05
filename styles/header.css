@@ -20,6 +20,7 @@
                 
         background:  hsla(0, 0%, 100%, 0.386);
         backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
     }
 
     .header_open_border_radius {
