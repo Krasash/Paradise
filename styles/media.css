@@ -6,11 +6,20 @@
     }
 
     .about_head_photo {
-        width: 90vw;
+        width: 80vw;
     }
 
     .about_me_article {
-        width: 90vw;
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 917px) {
+    .about_head_photo {
+        width: 60vw;
+    }
+    .about_me_article {
+        width: 60vw;
     }
 }
 
